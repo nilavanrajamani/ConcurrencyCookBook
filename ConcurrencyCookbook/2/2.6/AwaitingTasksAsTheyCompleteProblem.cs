@@ -17,9 +17,13 @@ namespace ConcurrencyCookbook
             Task<int> taskC = awaitingTasksAsTheyComplete.DelayAndReturnAsync(1);
             Task<int>[] tasks = new[] { taskA, taskB, taskC };
 
+            int i = 1;
             foreach (var task in tasks)
             {
+                Console.WriteLine($@"{i} execution in progress");    
                 var result = await task;
+                Console.WriteLine($@"{i} execution Completed");
+                i++;
                 Console.WriteLine(result);
             }
         }

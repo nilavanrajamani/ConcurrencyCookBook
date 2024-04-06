@@ -10,7 +10,8 @@ namespace ConcurrencyCookbook
     {
         static async Task Main(string[] args)
         {
-            
+            CreatingAsynchronousStreams creatingAsynchronousStreams = new CreatingAsynchronousStreams();
+            await creatingAsynchronousStreams.ProcessValueAsync(new HttpClient());
         }
 
         async IAsyncEnumerable<int> GetValuesAsync()
@@ -38,6 +39,15 @@ namespace ConcurrencyCookbook
                     break;
 
                 offset += limit;
+            }
+        }
+
+        public async Task ProcessValueAsync(HttpClient client)
+        {
+            await foreach (var item in GetValuesAsync(client))
+            {
+                await Task.Delay(1000);
+                Console.WriteLine(item);
             }
         }
     }

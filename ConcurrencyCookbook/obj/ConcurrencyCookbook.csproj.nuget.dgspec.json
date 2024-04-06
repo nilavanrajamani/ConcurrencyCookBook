@@ -48,6 +48,10 @@
             "Nito.AsyncEx": {
               "target": "Package",
               "version": "[5.1.2, )"
+            },
+            "System.Linq.Async": {
+              "target": "Package",
+              "version": "[6.0.1, )"
             }
           },
           "imports": [

@@ -22,3 +22,5 @@ C:\Users\nilav\source\repos\ConcurrencyCookbook\ConcurrencyCookbook\bin\Debug\ne
 C:\Users\nilav\source\repos\ConcurrencyCookbook\ConcurrencyCookbook\bin\Debug\net6.0\Nito.Collections.Deque.dll
 C:\Users\nilav\source\repos\ConcurrencyCookbook\ConcurrencyCookbook\bin\Debug\net6.0\Nito.Disposables.dll
 C:\Users\nilav\source\repos\ConcurrencyCookbook\ConcurrencyCookbook\obj\Debug\net6.0\ConcurrencyCookbook.csproj.CopyComplete
+C:\Users\nilav\source\repos\ConcurrencyCookbook\ConcurrencyCookbook\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\nilav\source\repos\ConcurrencyCookbook\ConcurrencyCookbook\bin\Debug\net6.0\System.Linq.Async.dll
