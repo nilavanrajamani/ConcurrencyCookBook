@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33103.201
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrencyCookbook", "ConcurrencyCookbook\ConcurrencyCookbook.csproj", "{06C8EF89-D3C1-4B58-926D-7D996E1B84B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConcurrencyCookbook", "ConcurrencyCookbook\ConcurrencyCookbook.csproj", "{06C8EF89-D3C1-4B58-926D-7D996E1B84B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrencyCookbookWinforms", "ConcurrencyCookbookWinforms\ConcurrencyCookbookWinforms.csproj", "{607F01FA-2CED-41C1-86FE-416A5C267CB6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{06C8EF89-D3C1-4B58-926D-7D996E1B84B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06C8EF89-D3C1-4B58-926D-7D996E1B84B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06C8EF89-D3C1-4B58-926D-7D996E1B84B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{607F01FA-2CED-41C1-86FE-416A5C267CB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{607F01FA-2CED-41C1-86FE-416A5C267CB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{607F01FA-2CED-41C1-86FE-416A5C267CB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{607F01FA-2CED-41C1-86FE-416A5C267CB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
