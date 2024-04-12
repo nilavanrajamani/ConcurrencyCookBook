@@ -1,4 +1,7 @@
 using ConcurrencyCookbookWinforms._6._2;
+using ConcurrencyCookbookWinforms._6._3;
+using ConcurrencyCookbookWinforms._6._4;
+using ConcurrencyCookbookWinforms._6._5;
 
 namespace ConcurrencyCookbookWinforms
 {
@@ -13,7 +16,7 @@ namespace ConcurrencyCookbookWinforms
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new MouseEventOnUiContext());
+            Application.Run(new TimeoutWithFallbackSubscribable());
         }
     }
 }
